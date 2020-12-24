@@ -90,45 +90,7 @@ namespace Ex_03
             int i = Convert.ToInt32(Console.ReadLine());
             int sGetSeason = GetSeason(i);
             Translation(sGetSeason);
-            //Console.WriteLine(sGetSeason);
-
-            /*
-            string s;
-            switch (i)
-            {
-                case 1:
-                    s = Enum.GetName(typeof(Seasons), 1);
-                    return;
-                case 12:
-                    s = Enum.GetName(typeof(Seasons), 1);
-                    //Console.WriteLine($"{s}");
-                    return;
-                default:
-                    Console.WriteLine("Вы ввели не верные данные.");
-                    break;
-            }
-            //Console.WriteLine($"{s}");
-           */
-            /*
-            if (i == 1 || i == 2 || i == 12)
-            {
-                s = Enum.GetName(typeof(Seasons), 1);
-                Console.WriteLine(s);
-            }
-            else if (i == 3 || i == 4 || i == 5)
-
-                s = Enum.GetName(typeof(Seasons), 2);
-
-            else if (i == 6 || i == 7 || i == 8)
-
-                s = Enum.GetName(typeof(Seasons), 3);
-
-            else if (i == 9 || i == 10 || i == 11)
-
-                s = Enum.GetName(typeof(Seasons), 4);
             
-            //Console.WriteLine(s);
-            */
 
         }
     }
